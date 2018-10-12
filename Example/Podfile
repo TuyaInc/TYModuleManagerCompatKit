@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TYModuleManagerCompatKit_Example' do
+  pod 'TYModuleManagerCompatKit', :path => '../'
+
+  target 'TYModuleManagerCompatKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
