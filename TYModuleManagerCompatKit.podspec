@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/pany/TYModuleManagerCompatKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'tuyaios' => 'ios@tuya.com' }
-  s.source           = { :git => 'git@github.com:TuyaInc/TYModuleManagerCompatKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/TuyaInc/TYModuleManagerCompatKit.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
