@@ -15,9 +15,6 @@
 #import "TYModuleService.h"
 #import "TYModuleServiceProtocol.h"
 
-#import "TYModuleManager+CompatKit.h"
-
-#import "TYModuleRouteManager+Compat.h"
 #import "TYRoute.h"
 #import "TYModuleRouterProtocol.h"
 

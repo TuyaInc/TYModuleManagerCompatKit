@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TYModuleManagerCompatKit'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'compatKit for TYModuleManager < 1.0.0'
   s.homepage         = 'https://github.com/pany/TYModuleManagerCompatKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -16,6 +16,8 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'git@github.com:TuyaInc/TYModuleManagerCompatKit.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
+
+  s.frameworks = 'UIKit', 'Foundation'
 
   s.source_files = 'TYModuleManagerCompatKit/Headers/**/*'
   s.vendored_library = 'TYModuleManagerCompatKit/libTYModuleManagerCompatKit.a'
