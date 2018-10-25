@@ -12,5 +12,5 @@
 @protocol TYModuleTaskProtocol <NSObject>
 
 @optional
-- (NSArray<Class<TYTaskProtocol>> * _Nullable)registerTasksForModule  __deprecated_msg("Use <TYModuleTaskRegisterProtocol -registModuleTasks> insted");
+- (NSArray<Class<TYTaskProtocol>> * _Nullable)registerTasksForModule  __deprecated_msg("Use <TYModuleLaunchTaskRegisterProtocol -registLaunchTasks> insted");
 @end

@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TYModuleManagerCompatKit'
-  s.version          = '0.1.1'
-  s.summary          = 'compatKit for TYModuleManager < 1.0.0'
+  s.version          = '0.1.2'
+  s.summary          = 'compatKit for TYModuleManager'
   s.homepage         = 'https://github.com/pany/TYModuleManagerCompatKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'tuyaios' => 'ios@tuya.com' }

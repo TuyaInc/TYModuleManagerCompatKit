@@ -9,6 +9,6 @@
 
 #import "TYModuleTabbarUtilProtocol.h"
 
-@interface TYModuleTabbarUtil : NSObject <TYModuleTabbarUtilProtocol>
+__deprecated_msg("No longer supported") @interface TYModuleTabbarUtil : NSObject <TYModuleTabbarUtilProtocol>
 
 @end

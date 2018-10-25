@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface TYRoute : NSObject
+__deprecated_msg("Use [TYModule routeService] insted") @interface TYRoute : NSObject
 
 + (BOOL)openURL:(NSString * _Nonnull)targetURL __deprecated_msg("Use [TYModule.routeService -openURL:withParams:] instead");
 + (BOOL)openURL:(NSString * _Nonnull)targetURL parameters:(nullable NSDictionary *)parameters __deprecated_msg("Use [TYModule.routeService -openURL:withParams:] instead");

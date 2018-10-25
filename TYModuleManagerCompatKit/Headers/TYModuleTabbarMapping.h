@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface TYModuleTabbarMapping : NSObject
+__deprecated_msg("Use TYTabItemAttribute insted") @interface TYModuleTabbarMapping : NSObject
 
 @property (nonatomic, assign) BOOL showBadge;
 @property (nonatomic, assign) BOOL selected;

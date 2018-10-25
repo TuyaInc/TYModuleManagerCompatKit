@@ -9,6 +9,6 @@
 
 #import "TYModuleLoginNotifyProtocol.h"
 
-@protocol TYModuleLoginLifeCycleProtocol <TYModuleLoginNotifyProtocol>
+__deprecated_msg("Use <TYModuleLoginNotifyProtocol> insted") @protocol TYModuleLoginLifeCycleProtocol <TYModuleLoginNotifyProtocol>
 
 @end

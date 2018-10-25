@@ -9,9 +9,9 @@
 
 @protocol TYMainViewControllerProtocol;
 
-@interface TYModuleService : NSObject
+__deprecated_msg("Use [TYModule moduleService] insted") @interface TYModuleService : NSObject
 
-+ (id _Nullable)moduleServiceForProtocol:(Protocol * _Nonnull)protocol __deprecated_msg("Use [TYModule +serviceForProtocol] insted");
++ (id _Nullable)moduleServiceForProtocol:(Protocol * _Nonnull)protocol __deprecated_msg("Use [TYModule +serviceOfProtocol] insted");
 
 + (void)moduleServiceResetRoot:(UIViewController * _Nullable)viewController __deprecated_msg("Use [TYModule.applicationService -resetRootViewController] instead");
 

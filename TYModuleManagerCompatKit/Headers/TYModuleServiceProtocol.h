@@ -14,7 +14,7 @@ struct TYModuleServiceMapping {
 
 typedef struct TYModuleServiceMapping TYModuleServiceMapping;
 
-@protocol TYModuleServiceProtocol <NSObject>
+__deprecated_msg("Use <TYModuleServiceRegisterProtocol> insted") @protocol TYModuleServiceProtocol <NSObject>
 
 @optional
 - (NSArray<NSValue *> *_Nullable)registerModuleServices __deprecated_msg("Use <TYModuleServiceRegisterProtocol -registModuleServices> instead");

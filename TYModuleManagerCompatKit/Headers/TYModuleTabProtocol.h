@@ -19,7 +19,7 @@ struct TYModuleTabMapping {
 
 typedef struct TYModuleTabMapping TYModuleTabMapping;
 
-@protocol TYModuleTabProtocol <NSObject>
+__deprecated_msg("Use <TYModuleTabRegisterProtocol> insted") @protocol TYModuleTabProtocol <NSObject>
 
 @optional
 

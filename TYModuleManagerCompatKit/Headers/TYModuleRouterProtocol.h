@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol TYModuleRouterProtocol <NSObject>
+__deprecated_msg("Use <TYModuleRouteRegisterProtocol> insted") @protocol TYModuleRouterProtocol <NSObject>
 
 @optional
 - (NSArray<NSString *> * _Nullable)registerUrlForModule __deprecated_msg("Use <TYModuleRouteRegisterProtocol -registModuleRoutes> instead");

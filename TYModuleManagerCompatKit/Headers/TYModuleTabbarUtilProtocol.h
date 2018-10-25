@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol TYModuleTabbarUtilProtocol <NSObject>
+__deprecated_msg("No longer supported") @protocol TYModuleTabbarUtilProtocol <NSObject>
 
 + (void)showTabbarWithModuleImpl:(Class)module __deprecated_msg("Use [TYModule.tabService -showTabWithModule] insted");
 
