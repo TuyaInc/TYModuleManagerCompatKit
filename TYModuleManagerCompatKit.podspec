@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TYModuleManagerCompatKit'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'compatKit for TYModuleManager < 1.0.0'
   s.homepage         = 'https://github.com/pany/TYModuleManagerCompatKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
